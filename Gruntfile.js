@@ -124,8 +124,8 @@ module.exports = function (grunt) {
                     // require them into your main .coffee file
                     expand: true,
                     cwd: '<%= yeoman.app %>/scripts',
-                    src: '*.coffee',
-                    dest: '.tmp/scripts',
+                    src: '**/*.coffee',
+                    dest: '<%= yeoman.app %>/scripts',
                     ext: '.js'
                 }]
             },
