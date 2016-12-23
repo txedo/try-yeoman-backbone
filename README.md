@@ -4,7 +4,7 @@ This is a testing app made to try Yeoman (Yo + Grunt + Bower) by following a lit
 The original tutorial seems to have a couple of erratas or information that have been avoided:
 
 - You have to install `generator-mocha` when installing `generator-backbone` and before running `yo` to scaffold the app.
-> What is Mocha? [Mocha](http://visionmedia.github.io/mocha/) is a feature-rich JavaScript test framework running on node and the browser with asynchronous support.
+> What is Mocha? [Mocha](http://mochajs.org/) is a feature-rich JavaScript test framework running on node and the browser with asynchronous support.
 
 - Before running `grunt server` command for first time, be sure that you have an updated version of sass gem. To update it I did `gem install sass`.
 
